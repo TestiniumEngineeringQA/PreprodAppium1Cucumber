@@ -150,37 +150,9 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroid01
   Scenario: BasicTiklamalarAndroid01
-    Given Wait 5 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_campaign" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_campaign" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_campaign" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_campaign" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
-    Then Wait 2 seconds
-    Then Element with id "com.gratis.android:id/nav_graph_campaign" is clicked
-    Then Wait 2 seconds
+    Given Wait 15 seconds
+    Then Element with xpath "//*[contains(@resource-id, 'android:id/button2') and contains(@text, 'İPTAL')]" is clicked
+    Then Wait 5 seconds
 
   @BasicTiklamalarAndroid02
   Scenario: BasicTiklamalarAndroid02
