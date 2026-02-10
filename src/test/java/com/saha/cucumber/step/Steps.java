@@ -43,7 +43,7 @@ public class Steps {
                 driver = new AndroidDriver<MobileElement>(new URL(hubURL), capabilities);
             } else {
                 capabilities.setCapability(CapabilityType.PLATFORM_NAME, Platform.IOS);
-                capabilities.setCapability("autoAcceptAlerts",true);
+                //capabilities.setCapability("autoAcceptAlerts",true);
                 capabilities.setCapability("bundleId", "com.pharos.Gratis");
                 driver = new IOSDriver<MobileElement>(new URL(hubURL), capabilities);
             }
