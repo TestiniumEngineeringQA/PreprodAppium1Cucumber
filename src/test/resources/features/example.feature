@@ -5,6 +5,7 @@ Feature: OpenApplication
     Given Wait 15 seconds
     Then Element with xpath "//*[contains(@text, 'Güncelle')]" is clicked
     Then Wait 2 seconds
+    Then Element with xpath "//*[contains(@text, 'Gratis')]" is clicked
 
   @BasicTiklamalarIOS02
   Scenario: BasicTiklamalarIOS02
