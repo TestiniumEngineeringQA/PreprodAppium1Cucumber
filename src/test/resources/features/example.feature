@@ -4,8 +4,9 @@ Feature: OpenApplication
   Scenario: BasicTiklamalarIOS01
     Given Wait 15 seconds
     Then Element with xpath "//*[contains(@text, 'Güncelle')]" is clicked
-    Then Wait 2 seconds
-    Then Element with xpath "//*[contains(@text, 'Gratis')]" is clicked
+    Then Wait 3 seconds
+    Then Element with xpath "//*[contains(@text, 'Geri')]" is clicked
+    Then Wait 3 seconds
 
   @BasicTiklamalarIOS02
   Scenario: BasicTiklamalarIOS02
