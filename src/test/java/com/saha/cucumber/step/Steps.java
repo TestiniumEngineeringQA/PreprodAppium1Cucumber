@@ -30,7 +30,7 @@ public class Steps {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         if (!StringUtils.isEmpty(System.getProperty("key"))) {
-            capabilities.setCapability("key", System.getProperty("key"));
+            capabilities.setCapability("key", System.getNOTProperty("key"));
             if (System.getProperty("platform").equals("ANDROID")) {
                 capabilities
                         .setCapability(AndroidMobileCapabilityType.APP_PACKAGE,
